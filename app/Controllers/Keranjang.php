@@ -110,8 +110,8 @@ class Keranjang extends BaseController
                 $mail->isSMTP();
                 $mail->Host       = 'smtp.googlemail.com';
                 $mail->SMTPAuth   = true;
-                $mail->Username   = 'tugasgany@gmail.com';
-                $mail->Password   = 'wqke nehq unme lqxz';
+                $mail->Username   = 'kelompok11login@gmail.com';
+                $mail->Password   = 'pnok wrjg tprc blzp';
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port       = 465;
                 $mail->setFrom('admin@buahku.com', 'Admin BuahKu');

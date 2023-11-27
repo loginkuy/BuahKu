@@ -9,7 +9,8 @@ class Sign extends BaseController
 
     public function index()
     {
-        echo view('login');
+        // echo view('login');
+        return view('login');
     }
 
     public function in()
@@ -50,7 +51,8 @@ class Sign extends BaseController
 
     public function regist()
     {
-        echo view('regist');
+        return view('regist');
+        // echo view('regist');
     }
 
     public function up()

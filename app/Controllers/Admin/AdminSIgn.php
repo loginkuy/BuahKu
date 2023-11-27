@@ -9,7 +9,7 @@ class AdminSign extends BaseController
 
     public function index()
     {
-        echo view('admin_login');
+        return view('admin_login');
     }
 
     public function in()
@@ -50,7 +50,7 @@ class AdminSign extends BaseController
 
     public function regist()
     {
-        echo view('admin_regist');
+        return view('admin_regist');
     }
 
     public function up()
